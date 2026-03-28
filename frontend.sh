@@ -19,7 +19,7 @@ npm --version &>>$OUTPUT
 status_check
 
 echo -e "${YC}Download and extract Application${NC}"
-curl -L -o /tmp/frontend.tar.gz https://raw.githubusercontent.com/raghudevopsb88/wealth-project/main/artifacts/frontend.tar.gz &>>$OUTPUT
+curl -L -o /tmp/frontend.tar.gz https://raw.githubusercontent.com/mydevops88/wealth-project/main/artifacts/frontend.tar.gz &>>$OUTPUT
 mkdir -p /tmp/frontend &>>$OUTPUT
 cd /tmp/frontend
 tar xzf /tmp/frontend.tar.gz &>>$OUTPUT
